@@ -1,0 +1,16 @@
+@import url('https://www.guiadasemana.com.br/contentFiles/image/opt_w1920h650/2020/03/FEA/65052_shutterstock-561290503.jpg');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed; 
+    background-size: cover;
+    background-image: url('https://www.guiadasemana.com.br/contentFiles/image/opt_w1920h650/2020/03/FEA/65052_shutterstock-561290503.jpg');
+
+}
+picture img {
+    width: 400px;
+    display: flex;
+    right: 0;
+    left: 0;
+    margin: 30px auto;
+}

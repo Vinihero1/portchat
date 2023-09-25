@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifolio</title>
+    <link rel="stylesheet" href="sheet.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .project {
+            float: left;
+            width: 30%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .project img {
+            width: 100%;
+        }
+        #botaoVoltar {
+            
+            
+            background-color: hwb(23 0% 0%); /* Cor de fundo do botão */
+            color: #fff; /* Cor do texto do botão */
+            padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+            border: none; /* Remover a borda do botão */
+            cursor: pointer; /* Mudar o cursor ao passar o mouse */
+            border-radius: 5px; /* Cantos arredondados */
+            font-size: 16px; /* Tamanho da fonte */
+        }
+
+        /* Estilizar o botão quando passar o mouse por cima */
+        #botaoVoltar:hover {
+            background-color: #b35100; /* Cor de fundo alterada */
+             }
+             .btn,
+  .btn:focus {
+    outline: none !important;
+    -webkit-box-shadow: none;
+            box-shadow: none;}
+      
+    
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Portifolio</h1>
+    </header>
+    
+    <div class="container">
+        <div class="project">
+            <a href="file:///C:/Users/vinic/OneDrive/%C3%81rea%20de%20Trabalho/Projetos/portchat/pokedex4/index.html" target="_blank">
+            <img src="imgchat/1619851762707.jpg"> </a>
+            <h3>Projeto Pokedex</h3>
+         
+            <p>Pagina criada com Html,Css e JS !</p>
+            
+        </div>
+        <div class="project">
+            <a href="file:///C:/Users/vinic/OneDrive/%C3%81rea%20de%20Trabalho/Projetos/portchat/home%20insta/index.html" target="_blank">
+            <img src="imgchat/projeto2.jpg" alt="Projeto 2"></a>
+            <h3>Projeto Instagram </h3>
+            <p>Copia Home do Instagram .</p>
+        </div>
+        <div class="project">
+            <a href="file:///C:/Users/vinic/OneDrive/%C3%81rea%20de%20Trabalho/Projetos/portchat/hDC/index.html" target="_blank">
+            <img src="imgchat/projeto3.png" alt="Projeto3"></a>
+            <h3>Projeto hDC</h3>
+            <p>Projeto de local Host.</p>
+        </div>
+    </div>
+    <div class="btn-box">
+    <button id="botaoVoltar"> Voltar</button>
+    
+      </div>
+      
+
+    <script>
+    document.getElementById("botaoVoltar").addEventListener("click", function() {
+        window.location.href = "file:///C:/Users/vinic/OneDrive/%C3%81rea%20de%20Trabalho/Projetos/novo%20projeto/index.html";
+    });
+        </script>
+    <script src="scrip.js"></script>
+    
+   
+</body>
+
+
+</html>
